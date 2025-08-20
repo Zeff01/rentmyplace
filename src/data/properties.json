@@ -1,0 +1,74 @@
+[
+  {
+    "id": "p-101",
+    "title": "Riverside Flats",
+    "city": "Jacksonville",
+    "beds": 2,
+    "baths": 2,
+    "rent": 1650,
+    "img": "https://picsum.photos/seed/rw1/640/360"
+  },
+  {
+    "id": "p-102",
+    "title": "Oakview Townhomes",
+    "city": "Orlando",
+    "beds": 3,
+    "baths": 2,
+    "rent": 2100,
+    "img": "https://picsum.photos/seed/rw2/640/360"
+  },
+  {
+    "id": "p-103",
+    "title": "Seabreeze Lofts",
+    "city": "Tampa",
+    "beds": 1,
+    "baths": 1,
+    "rent": 1400,
+    "img": "https://picsum.photos/seed/rw3/640/360"
+  },
+  {
+    "id": "p-104",
+    "title": "Garden View Apartments",
+    "city": "Miami",
+    "beds": 2,
+    "baths": 1,
+    "rent": 1950,
+    "img": "https://picsum.photos/seed/rw4/640/360"
+  },
+  {
+    "id": "p-105",
+    "title": "Sunset Heights",
+    "city": "Jacksonville",
+    "beds": 3,
+    "baths": 2,
+    "rent": 2250,
+    "img": "https://picsum.photos/seed/rw5/640/360"
+  },
+  {
+    "id": "p-106",
+    "title": "Urban Living Suites",
+    "city": "Tampa",
+    "beds": 1,
+    "baths": 1,
+    "rent": 1200,
+    "img": "https://picsum.photos/seed/rw6/640/360"
+  },
+  {
+    "id": "p-107",
+    "title": "Lakeside Manor",
+    "city": "Orlando",
+    "beds": 4,
+    "baths": 3,
+    "rent": 2800,
+    "img": "https://picsum.photos/seed/rw7/640/360"
+  },
+  {
+    "id": "p-108",
+    "title": "Downtown Studios",
+    "city": "Miami",
+    "beds": 1,
+    "baths": 1,
+    "rent": 1750,
+    "img": "https://picsum.photos/seed/rw8/640/360"
+  }
+]
