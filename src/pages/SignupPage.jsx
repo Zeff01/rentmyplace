@@ -42,15 +42,21 @@ const SignupPage = () => {
       if (error.code === 'auth/email-already-in-use') {
         toast.error('This email is already registered. Please sign in instead.');
       } else if (error.code === 'auth/invalid-email') {
-        toast.error('Invalid email address.');
+        toast.error('Invalid email address format. Please enter a valid email.');
       } else if (error.code === 'auth/weak-password') {
-        toast.error('Password is too weak. Please use a stronger password.');
+        toast.error('Password is too weak. Please use at least 6 characters with a mix of letters and numbers.');
       } else if (error.code === 'auth/operation-not-allowed') {
         toast.error('Email/password accounts are not enabled. Please contact support.');
       } else if (error.code === 'auth/network-request-failed') {
         toast.error('Network error. Please check your internet connection.');
       } else if (error.code === 'auth/configuration-not-found') {
         toast.error('Firebase configuration error. Please check your Firebase settings.');
+      } else if (error.code === 'auth/invalid-credential') {
+        toast.error('Invalid credentials provided. Please check your information and try again.');
+      } else if (error.code === 'auth/missing-email') {
+        toast.error('Please enter your email address.');
+      } else if (error.code === 'auth/missing-password') {
+        toast.error('Please enter a password.');
       } else {
         toast.error(error.message || 'Failed to create account. Please try again.');
       }
